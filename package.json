@@ -1,0 +1,21 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "postcss style.css -o style.min.css",
+    "dev": "set NODE_ENV=production&& npx tailwindcss-cli build ./style.css -o ./style.min.css"
+  },
+  "author": "Piyush",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.10",
+    "postcss-cli": "^8.3.0",
+    "tailwindcss-cli": "^0.1.2"
+  }
+}
